@@ -30,16 +30,16 @@ const config = {
 			"type": "pic",   //"pic":静态壁纸;"video":动态壁纸
 			"datainfo": {
 				"title": "每日壁纸",
-				"preview": "https://bing.img.run/1920x1080.php",
-				"url": "https://bing.img.run/1920x1080.php",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc" 原URL"url": "/img/wallpaper/static/海洋女孩/image.png"
+				"preview": "https://t.mwm.moe/pc",
+				"url": "https://t.mwm.moe/pc",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc" 原URL"url": "/img/wallpaper/static/海洋女孩/image.png"
 			},
 		},
 		"mobile": {   //移动端
 			"type": "pic",
 			"datainfo": {
 				"title": "每日壁纸",
-				"preview": "https://bing.img.run/1920x1080.php",
-				"url": "https://bing.img.run/1920x1080.php"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+				"preview": "https://t.mwm.moe/mp",
+				"url": "https://t.mwm.moe/mp"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
 			}
 		}
 
