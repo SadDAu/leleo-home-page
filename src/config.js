@@ -7,8 +7,8 @@ const config = {
 		icon: '/favicon.ico'   //网页图标，支持外链
 	},
 
-	avatar: "/img/avatar.jpg", // 头像
-	welcometitle: "Hi, I'm Leleo", // 标题
+	avatar: "https://v2.xxapi.cn/api/head", // 头像 /img/avatar.jpg
+	welcometitle: "Hi, I'm HHui", // 标题
 
 	// 颜色配置
 	color: {
@@ -30,16 +30,16 @@ const config = {
 			"type": "pic",   //"pic":静态壁纸;"video":动态壁纸
 			"datainfo": {
 				"title": "每日壁纸",
-				"preview": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",
-				"url": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc" 原URL"url": "/img/wallpaper/static/海洋女孩/image.png"
+				"preview": "https://bing.img.run/1920x1080.php",
+				"url": "https://bing.img.run/1920x1080.php",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc" 原URL"url": "/img/wallpaper/static/海洋女孩/image.png"
 			},
 		},
 		"mobile": {   //移动端
 			"type": "pic",
 			"datainfo": {
 				"title": "每日壁纸",
-				"preview": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",
-				"url": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+				"preview": "https://bing.img.run/1920x1080.php",
+				"url": "https://bing.img.run/1920x1080.php"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
 			}
 		}
 
@@ -143,14 +143,14 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "📝 前往", img: "/img/sunshine.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "👍 前往", img: "/img/sunshine.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "Project 5", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "Project 6", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "💍 前往", img: "/img/sunshine.jpg", title: "Project 7", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "博客主站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "网盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "📝 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "👍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "💍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
 	],
 
 	statement: ["人生无需备案", "Copyright © 2025 HHui"],
