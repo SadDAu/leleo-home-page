@@ -1,9 +1,9 @@
 const config = {
 	//网页元数据
 	metaData: {
-		title: 'Leleo的个人主页🎉',
-		description: '欢迎来到Leleo的奇妙世界！',
-		keywords: 'Leleo,leleo,个人主页,个人网站',
+		title: 'HHui的个人主页🎉',
+		description: '欢迎来到HHui的奇妙世界！',
+		keywords: 'HHui,HHui,个人主页,个人网站',
 		icon: '/favicon.ico'   //网页图标，支持外链
 	},
 
@@ -29,17 +29,17 @@ const config = {
 		"pc": {   //pc端
 			"type": "pic",   //"pic":静态壁纸;"video":动态壁纸
 			"datainfo": {
-				"title": "海洋女孩",
-				"preview": "/img/wallpaper/static/海洋女孩/image-pre.webp",
-				"url": "/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+				"title": "每日壁纸",
+				"preview": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",
+				"url": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc" 原URL"url": "/img/wallpaper/static/海洋女孩/image.png"
 			},
 		},
 		"mobile": {   //移动端
 			"type": "pic",
 			"datainfo": {
-				"title": "0001",
-				"preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
-				"url": "/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+				"title": "每日壁纸",
+				"preview": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN",
+				"url": "https://bing.biturl.top/?resolution=UHD&format=json&index=0&mkt=zh-CN"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
 			}
 		}
 
@@ -47,26 +47,31 @@ const config = {
 
 	//极坐标图数据
 	polarChart: {
-		skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
+		skills: ['Photoshop', 'Premiere Pro', 'After Effects', '系统安装部署', 'Windows', 'linux', 'SQL', 'Docker', 'wordpress', '网络搭建', '系统运维'],
 		skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
 	},
 
 	//社交按钮
 	socialPlatformIcons: [
-		{ icon: "mdi-github", link: "https://www.github.com/leleo886" },
-		{ icon: "mdi-email", link: "mailto:leleo886@foxmail.com" },
-		{ icon: "mdi-qqchat", link: "https://im.qq.com/" },
-		{ icon: "mdi-wechat", link: "https://wx.qq.com/" },
-		{ icon: "mdi-youtube", link: "https://www.youtube.com" },
-		{ icon: "mdi-facebook", link: "https://www.facebook.com" }
+		{ icon: "mdi-github", link: "https://github.com/SadDAu" },
+		{ icon: "mdi-email", link: "mailto:3344622898@qq.com" },
+		{ icon: "mdi-qqchat", link: "https://qm.qq.com/q/V5nZnWjfGM" },
+		{ icon: "mdi-wechat", link: "https://u.wechat.com/MJpLrfgmQHhlYp9Gzs-e4SQ?s=4" },
+		//{ icon: "mdi-youtube", link: "https://www.youtube.com" },
+		//{ icon: "mdi-facebook", link: "https://www.facebook.com" }
 	],
 
 	//打字机
 	typeWriterStrings: [
 		"如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
-		"顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
+		//"顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
 		"心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
-		"生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
+		"生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。",
+		"生命没有同花顺，人生的底牌永远都是自己",
+		"人一生只有唯一的一个结果，不同的是过程。",
+		"人生就像一场旅行，不在乎目的地，在乎的是沿途的风景以及看风景的心情。",
+		"秋日薄暮，用菊花煮竹叶青，人与海棠俱醉。",
+		"要活成两种样子，发光和不发光。不发光的时候，都是在为发光做准备。",
 	],
 
 	//音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
@@ -148,7 +153,7 @@ const config = {
 		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
 	],
 
-	statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
+	statement: ["人生无需备案", "Copyright © 2025 HHui"],
 }
 
 export default config
