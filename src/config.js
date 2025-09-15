@@ -22,7 +22,7 @@ const config = {
 	blur: 5, // 毛玻璃模糊效果
 
 	// 我的标签
-	tags: ['乐观开朗', '温柔体贴', '随和亲切', '冷静沉着', '才思敏捷', '风趣幽默', '刚正不阿', '善解人意'],
+	tags: ['纯种乐子人'],
 
 	// 默认背景壁纸
 	background: {
@@ -143,14 +143,14 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "博客主站", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "网盘", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "📝 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "👍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "💍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
-		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "博客主站", subtitle: "开放式聊天博客", text: "曼波", url: "https://www.hexhoid.top", show: false },
+		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "网盘", subtitle: "停摆中", text: "曼波", url: "https://log.hexhoid.top", show: false },
+		//{ go: "📝 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		//{ go: "👍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		//{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		//{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		//{ go: "💍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
+		//{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
 	],
 
 	statement: ["人生无需备案", "Copyright © 2025 HHui"],
