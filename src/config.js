@@ -143,7 +143,7 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "博客主站", subtitle: "开放式聊天博客", text: "曼波", url: "https://www.hexhoid.top", show: false },
+		{ go: "🚀 前往", img: "/img/wallpaper/blog.png", title: "博客主站", subtitle: "开放式聊天博客", text: "曼波", url: "https://www.hexhoid.top", show: false },
 		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "网盘", subtitle: "停摆中", text: "曼波", url: "https://log.hexhoid.top", show: false },
 		//{ go: "📝 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
 		//{ go: "👍 前往", img: "/img/sunshine.jpg", title: "废弃中", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://log.hexhoid.top", show: false },
